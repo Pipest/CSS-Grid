@@ -1,0 +1,45 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  padding: 30px;
+  gap: 30px;
+  justify-content: center;
+  height: 15vh;
+  bottom: -30px;
+}
+
+.card {
+
+  margin: 35vh auto;
+}
+
+
+button {
+  padding: 20px;
+  text-align: start;
+  border: none;
+
+}
+
+button:nth-child(1) {
+  border-radius: 10px;
+
+}
+
+button:nth-child(2) {
+  border-radius: 10px;
+}
+
+button:nth-child(3) {
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.09);
+}
+
+.class {
+  text-align: center;
+  font-size: 18px;
+}
