@@ -1,0 +1,62 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  padding: 30px;
+  gap: 25px;
+  justify-content: center;
+  margin: 35vh auto;
+
+}
+
+
+
+button {
+  padding: 20px;
+  text-align: start;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  line-height: 160px;
+}
+
+button:nth-child(1),
+.class1 {
+  padding: 20px;
+  border-radius: 10px;
+  height: 35vh;
+}
+
+button:nth-child(2),
+.class2 {
+  padding: 20px;
+  border-radius: 10px;
+  height: 35vh;
+
+}
+
+button:nth-child(3),
+.class3 {
+  padding: 20px;
+  border-radius: 10px;
+  height: 35vh;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+
+}
+
+button:hover:nth-child(1) {
+  background-color: brown;
+}
+
+button:hover:nth-child(2) {
+  background-color: lightskyblue;
+}
+
+button:hover:nth-child(3) {
+  background-color: purple;
+}
